@@ -13,7 +13,7 @@ import org.thymeleaf.spring5.templateresolver.SpringResourceTemplateResolver;
 import org.thymeleaf.spring5.view.ThymeleafViewResolver;
 
 @Configuration
-@ComponentScan("ru.crud-app.swampy")
+@ComponentScan("ru.crudapp.swampy")
 @EnableWebMvc
 public class  SpringConfig implements WebMvcConfigurer {
 
